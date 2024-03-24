@@ -8,8 +8,8 @@
 <h2>Kurulum</h2>
 
 ```console
-git clone https://github.com/tingirifistik/Enough-Reborn.git
-cd Enough-Reborn
+git clone https://github.com/byfurkan00/byfurkansms.git
+cd byfurkansms
 pip3 install -r requirements.txt
 python3 enough.py
 ```
