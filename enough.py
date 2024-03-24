@@ -15,20 +15,19 @@ for attribute in dir(SendSms):
 while 1:
     system("cls||clear")
     print("""{}
-     
-d8888b. db    db      d88888b db    db d8888b. db   dD  .d8b.  d8b   db      
-88  `8D `8b  d8'      88'     88    88 88  `8D 88 ,8P' d8' `8b 888o  88      
-88oooY'  `8bd8'       88ooo   88    88 88oobY' 88,8P   88ooo88 88V8o 88      
-88~~~b.    88         88~~~   88    88 88`8b   88`8b   88~~~88 88 V8o88      
-88   8D    88         88      88b  d88 88 `88. 88 `88. 88   88 88  V888      
-Y8888P'    YP         YP      ~Y8888P' 88   YD YP   YD YP   YP VP   V8P      
-                                                                             
-                                                                                   
+     ______                         _     
+    |  ____|                       | |    
+    | |__   _ __   ___  _   _  __ _| |__  
+    |  __| | '_ \ / _ \| | | |/ _` | '_ \ 
+    | |____| | | | (_) | |_| | (_| | | | |
+    |______|_| |_|\___/ \__,_|\__, |_| |_|
+                               __/ |      
+                              |___/      
     
-    Sms: {}           {}coder {}byfurkan-lusyisback\n  
+    Sms: {}           {}coder {}byfurkan\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (SEX😈)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo😈)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
@@ -215,3 +214,4 @@ Y8888P'    YP         YP      ~Y8888P' 88   YD YP   YD YP   YP VP   V8P
             system("cls||clear")
             print("\nCtrl+C tuş kombinasyonu algılandı. Menüye dönülüyor..")
             sleep(2)
+    
